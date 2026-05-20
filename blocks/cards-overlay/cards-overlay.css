@@ -3,25 +3,76 @@
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
 }
 
 .cards-overlay > ul > li {
-  border: 1px solid #dadada;
-  background-color: var(--background-color);
-}
-
-.cards-overlay .cards-overlay-card-body {
-  margin: 16px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  min-height: 200px;
 }
 
 .cards-overlay .cards-overlay-card-image {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
   line-height: 0;
 }
 
 .cards-overlay > ul > li img {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  height: 100%;
   object-fit: cover;
+}
+
+.cards-overlay .cards-overlay-card-body {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 24px;
+  min-height: 180px;
+  background: linear-gradient(to top, rgb(0 0 0 / 70%) 0%, rgb(0 0 0 / 20%) 60%, transparent 100%);
+  color: #fff;
+}
+
+.cards-overlay .cards-overlay-card-body h2,
+.cards-overlay .cards-overlay-card-body h3,
+.cards-overlay .cards-overlay-card-body p {
+  color: #fff;
+  margin: 0 0 0.25em;
+}
+
+.cards-overlay .cards-overlay-card-body h2 {
+  font-size: var(--heading-font-size-l);
+  line-height: 1.3;
+}
+
+.cards-overlay .cards-overlay-card-body a:any-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cards-overlay .cards-overlay-card-body a:hover {
+  text-decoration: underline;
+}
+
+.cards-overlay .cards-overlay-card-body a.button:any-link {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: var(--body-font-size-s);
+  margin-top: 8px;
+  display: inline-flex;
+  width: fit-content;
+}
+
+.cards-overlay .cards-overlay-card-body a.button:hover {
+  background: #fff;
+  color: var(--text-color);
 }
