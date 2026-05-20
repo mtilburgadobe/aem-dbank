@@ -1,0 +1,40 @@
+{
+  "variantName": "cards-article",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-20T10:07:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://corporates.db.com/",
+    "originPage": "Deutsche Bank Corporates and Institutions homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "content-teasers",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "top-image + eyebrow-heading + main-heading + description + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "article teaser grids",
+      "feature showcase cards with images",
+      "award/recognition display cards",
+      "content hub entry points with descriptions"
+    ],
+    "notSuitableFor": [
+      "cards without images",
+      "icon-based feature cards",
+      "cards with background-image overlays"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-20T10:07:00.000Z"
+  }
+}

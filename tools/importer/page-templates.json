@@ -12,11 +12,15 @@
       "blocks": [
         {
           "name": "hero-product",
-          "instances": [".dynamic-container-stage"]
+          "instances": [
+            ".dynamic-container-stage"
+          ]
         },
         {
           "name": "cards-icon",
-          "instances": ["#parsys-columncontrol_365142-columnControlCol1Parsys-columncontrol .colctrl__25-25-25-25"]
+          "instances": [
+            "#parsys-columncontrol_365142-columnControlCol1Parsys-columncontrol .colctrl__25-25-25-25"
+          ]
         },
         {
           "name": "columns-feature",
@@ -27,7 +31,9 @@
         },
         {
           "name": "table-pricing",
-          "instances": [".table.comp.comp--padded"]
+          "instances": [
+            ".table.comp.comp--padded"
+          ]
         },
         {
           "name": "columns-promo",
@@ -38,19 +44,27 @@
         },
         {
           "name": "cards-steps",
-          "instances": [".contentsnippetlist"]
+          "instances": [
+            ".contentsnippetlist"
+          ]
         },
         {
           "name": "tabs-comparison",
-          "instances": [".giga-tab"]
+          "instances": [
+            ".giga-tab"
+          ]
         },
         {
           "name": "accordion-legal",
-          "instances": ["#parsys-columncontrol_487523-columnControlCol2Parsys-columncontrol_340917_653381460-columnControlCol1Parsys-accordion_copy_copy__740162962"]
+          "instances": [
+            "#parsys-columncontrol_487523-columnControlCol2Parsys-columncontrol_340917_653381460-columnControlCol1Parsys-accordion_copy_copy__740162962"
+          ]
         },
         {
           "name": "accordion-faq",
-          "instances": ["#root-accordion_905335099__470306153"]
+          "instances": [
+            "#root-accordion_905335099__470306153"
+          ]
         }
       ],
       "sections": [
@@ -59,7 +73,9 @@
           "name": "Hero",
           "selector": ".stage-area",
           "style": null,
-          "blocks": ["hero-product"],
+          "blocks": [
+            "hero-product"
+          ],
           "defaultContent": []
         },
         {
@@ -78,7 +94,9 @@
           "name": "Key Benefits",
           "selector": "#parsys-columncontrol_365142-columnControlCol1Parsys-columncontrol",
           "style": null,
-          "blocks": ["cards-icon"],
+          "blocks": [
+            "cards-icon"
+          ],
           "defaultContent": []
         },
         {
@@ -86,7 +104,9 @@
           "name": "Additional Features",
           "selector": "#parsys-columncontrol_263516-columnControlCol2Parsys-text_copy_copy",
           "style": null,
-          "blocks": ["columns-feature"],
+          "blocks": [
+            "columns-feature"
+          ],
           "defaultContent": [
             "#parsys-columncontrol_263516-columnControlCol2Parsys-text_copy_copy h2"
           ]
@@ -96,7 +116,9 @@
           "name": "Pricing",
           "selector": "#parsys-columncontrol_copy_c_1273061504-columnControlCol2Parsys-experiencefragment_1",
           "style": null,
-          "blocks": ["table-pricing"],
+          "blocks": [
+            "table-pricing"
+          ],
           "defaultContent": []
         },
         {
@@ -104,7 +126,9 @@
           "name": "Happy Hour Promo",
           "selector": "#happy-hour",
           "style": "grey",
-          "blocks": ["columns-promo"],
+          "blocks": [
+            "columns-promo"
+          ],
           "defaultContent": []
         },
         {
@@ -112,7 +136,9 @@
           "name": "How It Works",
           "selector": "#parsys-columncontrol_copy_c_2069414751-columnControlCol1Parsys-text",
           "style": null,
-          "blocks": ["cards-steps"],
+          "blocks": [
+            "cards-steps"
+          ],
           "defaultContent": [
             "#parsys-columncontrol_copy_c_2069414751-columnControlCol1Parsys-text h2"
           ]
@@ -122,7 +148,9 @@
           "name": "Trading Comparison",
           "selector": ".comp--giga-tab",
           "style": null,
-          "blocks": ["tabs-comparison"],
+          "blocks": [
+            "tabs-comparison"
+          ],
           "defaultContent": []
         },
         {
@@ -130,7 +158,10 @@
           "name": "Depot Switch Promo",
           "selector": "#parsys-columncontrol_487523",
           "style": "grey",
-          "blocks": ["columns-promo", "accordion-legal"],
+          "blocks": [
+            "columns-promo",
+            "accordion-legal"
+          ],
           "defaultContent": []
         },
         {
@@ -138,8 +169,12 @@
           "name": "FAQ",
           "selector": "#root-accordion_905335099__470306153",
           "style": null,
-          "blocks": ["accordion-faq"],
-          "defaultContent": ["#Fragen h2"]
+          "blocks": [
+            "accordion-faq"
+          ],
+          "defaultContent": [
+            "#Fragen h2"
+          ]
         },
         {
           "id": "section-11",
@@ -148,6 +183,128 @@
           "style": null,
           "blocks": [],
           "defaultContent": []
+        }
+      ]
+    },
+    {
+      "name": "corporates-homepage",
+      "urls": [
+        "https://corporates.db.com/"
+      ],
+      "description": "DB Corporates homepage with hero carousel, product cards, and corporate banking information",
+      "blocks": [
+        {
+          "name": "carousel-hero",
+          "instances": [
+            ".mod-stage"
+          ]
+        },
+        {
+          "name": "cards-overlay",
+          "instances": [
+            ".cms-row.row-index-1 .itm-tile .mod-text-box.type-image-background",
+            ".cms-row.row-index-4 .cnt-generic.type-2 .mod-text-box.type-image-background"
+          ]
+        },
+        {
+          "name": "cards-article",
+          "instances": [
+            ".cms-row.row-index-11 .cnt-generic.type-3 .mod-text-box.type-default",
+            ".cms-row.row-index-16 .cnt-generic.type-3 .mod-text-box"
+          ]
+        },
+        {
+          "name": "columns-mixed",
+          "instances": [
+            ".cms-row.row-index-13, .cms-row.row-index-14"
+          ]
+        },
+        {
+          "name": "hero-banner",
+          "instances": [
+            ".cms-row.row-index-15 .mod-text-box.type-image-background"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": ".cms-row.row-index-1",
+          "style": null,
+          "blocks": [
+            "carousel-hero",
+            "cards-overlay"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Introduction",
+          "selector": ".cms-row.row-index-2",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            ".mod-page-headline h1",
+            ".mod-page-headline p"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Solutions Grid",
+          "selector": ".cms-row.row-index-4",
+          "style": "grey",
+          "blocks": [
+            "cards-overlay"
+          ],
+          "defaultContent": [
+            ".cms-row.row-index-4 .container-headline"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "Feature Cards",
+          "selector": ".cms-row.row-index-11",
+          "style": null,
+          "blocks": [
+            "cards-article"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-5",
+          "name": "Stay Updated",
+          "selector": [
+            ".cms-row.row-index-13",
+            ".cms-row.row-index-14"
+          ],
+          "style": null,
+          "blocks": [
+            "columns-mixed"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-6",
+          "name": "Flow Banner",
+          "selector": ".cms-row.row-index-15",
+          "style": null,
+          "blocks": [
+            "hero-banner"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-7",
+          "name": "Awards",
+          "selector": ".cms-row.row-index-16",
+          "style": "grey",
+          "blocks": [
+            "cards-article"
+          ],
+          "defaultContent": [
+            ".cms-row.row-index-16 .container-headline"
+          ]
         }
       ]
     }

@@ -1,0 +1,39 @@
+{
+  "variantName": "hero-banner",
+  "baseBlock": "hero",
+  "version": "1.0.0",
+  "created": "2026-05-20T10:07:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://corporates.db.com/",
+    "originPage": "Deutsche Bank Corporates and Institutions homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "content-promotion",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "eyebrow + heading + paragraph + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "mid-page promotional banners with background images",
+      "content milestone celebrations",
+      "full-width call-to-action sections with imagery"
+    ],
+    "notSuitableFor": [
+      "top-of-page product heroes",
+      "text-only hero sections",
+      "dark/moody hero sections"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-20T10:07:00.000Z"
+  }
+}

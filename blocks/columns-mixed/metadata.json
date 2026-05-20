@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-mixed",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-20T10:07:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://corporates.db.com/",
+    "originPage": "Deutsche Bank Corporates and Institutions homepage",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "content-layout",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "2/3 column (heading + tiles) + 1/3 column (heading + tag cloud)",
+    "buttonCount": 0,
+    "imageCount": 2
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "mixed content layouts with different column widths",
+      "sections combining cards/tiles with text-based content",
+      "asymmetric 2-column layouts (2/3 + 1/3)"
+    ],
+    "notSuitableFor": [
+      "equal-width columns",
+      "image-heavy alternating layouts",
+      "simple text-only side-by-side content"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-20T10:07:00.000Z"
+  }
+}

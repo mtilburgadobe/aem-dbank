@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-overlay",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-20T10:07:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://corporates.db.com/",
+    "originPage": "Deutsche Bank Corporates and Institutions homepage",
+    "blockPosition": "top"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "dark",
+    "density": "compact",
+    "purpose": "solution-tiles",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "background-image + heading-link + CTA",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "solution category tiles with dark background images",
+      "navigation cards with image backgrounds and overlay text",
+      "promotional tiles in sidebar or grid layouts"
+    ],
+    "notSuitableFor": [
+      "cards with detailed descriptions",
+      "cards without background images",
+      "cards with icons instead of photos"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/index"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-20T10:07:00.000Z"
+  }
+}

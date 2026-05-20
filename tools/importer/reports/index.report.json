@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "url": "https://corporates.db.com/",
+  "path": "index",
+  "timestamp": "2026-05-20T10:23:22.595Z",
+  "title": "Home – Corporates and Institutions",
+  "template": "corporates-homepage",
+  "blocks": [
+    "carousel-hero",
+    "cards-overlay",
+    "cards-overlay",
+    "cards-overlay",
+    "cards-overlay",
+    "cards-overlay",
+    "cards-overlay",
+    "cards-article",
+    "cards-article",
+    "cards-article",
+    "cards-article",
+    "cards-article",
+    "cards-article",
+    "columns-mixed",
+    "columns-mixed",
+    "hero-banner"
+  ]
+}

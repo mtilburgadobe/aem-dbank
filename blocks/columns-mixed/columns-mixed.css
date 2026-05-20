@@ -1,0 +1,33 @@
+.columns-mixed > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.columns-mixed img {
+  width: 100%;
+}
+
+.columns-mixed > div > div {
+  order: 1;
+}
+
+.columns-mixed > div > .columns-mixed-img-col {
+  order: 0;
+}
+
+.columns-mixed > div > .columns-mixed-img-col img {
+  display: block;
+}
+
+@media (width >= 900px) {
+  .columns-mixed > div {
+    align-items: center;
+    flex-direction: unset;
+    gap: 24px;
+  }
+
+  .columns-mixed > div > div {
+    flex: 1;
+    order: unset;
+  }
+}
