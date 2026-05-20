@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-feature",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-05-20T08:50:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.deutsche-bank.de/pk/sparen-und-anlegen/geldanlage-online/depot.html",
+    "originPage": "maxblue online depot product page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "feature-showcase",
+    "imagePattern": "large"
+  },
+  "contentPattern": {
+    "structure": "alternating text + image rows (2 columns, multiple rows)",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "feature showcase sections with alternating image/text",
+      "product benefit details with supporting images",
+      "multi-row content with images"
+    ],
+    "notSuitableFor": [
+      "single row columns",
+      "columns without images",
+      "columns needing CTAs"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/pk/sparen-und-anlegen/geldanlage-online/depot"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-20T08:50:00.000Z"
+  }
+}

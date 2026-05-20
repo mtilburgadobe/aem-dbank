@@ -1,0 +1,50 @@
+.tabs-comparison .tabs-comparison-list {
+  display: flex;
+  gap: 0;
+  max-width: 100%;
+  overflow-x: auto;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.tabs-comparison .tabs-comparison-list button {
+  flex: 1;
+  margin: 0;
+  border: none;
+  border-bottom: 3px solid transparent;
+  border-radius: 0;
+  padding: 14px 24px;
+  background-color: transparent;
+  color: var(--text-color);
+  font-size: var(--body-font-size-m);
+  font-weight: 500;
+  line-height: 1.4;
+  text-align: center;
+  text-overflow: unset;
+  overflow: unset;
+  white-space: nowrap;
+  transition: border-color 0.2s, color 0.2s;
+  cursor: pointer;
+}
+
+.tabs-comparison .tabs-comparison-list button p {
+  margin: 0;
+}
+
+.tabs-comparison .tabs-comparison-list button:hover {
+  color: var(--link-color);
+}
+
+.tabs-comparison .tabs-comparison-list button[aria-selected='true'] {
+  border-bottom-color: var(--link-color);
+  color: var(--link-color);
+  cursor: default;
+}
+
+.tabs-comparison .tabs-comparison-panel {
+  padding: 24px 0;
+  overflow: auto;
+}
+
+.tabs-comparison .tabs-comparison-panel[aria-hidden='true'] {
+  display: none;
+}

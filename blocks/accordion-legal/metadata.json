@@ -1,0 +1,39 @@
+{
+  "variantName": "accordion-legal",
+  "baseBlock": "accordion",
+  "version": "1.0.0",
+  "created": "2026-05-20T08:50:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.deutsche-bank.de/pk/sparen-und-anlegen/geldanlage-online/depot.html",
+    "originPage": "maxblue online depot product page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "grey",
+    "density": "compact",
+    "purpose": "legal-terms",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "single expandable item with long legal text",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "terms and conditions sections",
+      "legal disclosure expandables",
+      "single-item accordions for supplementary info"
+    ],
+    "notSuitableFor": [
+      "FAQ sections with many items",
+      "accordions with rich media content",
+      "multi-item knowledge bases"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/pk/sparen-und-anlegen/geldanlage-online/depot"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-20T08:50:00.000Z"
+  }
+}

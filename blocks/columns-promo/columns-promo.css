@@ -1,0 +1,55 @@
+.columns-promo > div {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.columns-promo img {
+  width: 100%;
+  border-radius: 4px;
+}
+
+.columns-promo > div > div {
+  order: 1;
+}
+
+.columns-promo > div > div h3 {
+  margin-top: 0;
+}
+
+.columns-promo > div > .columns-promo-img-col {
+  order: 0;
+}
+
+.columns-promo > div > .columns-promo-img-col img {
+  display: block;
+}
+
+.columns-promo a.button.secondary:any-link {
+  border-color: var(--link-color);
+  color: var(--link-color);
+  background: transparent;
+}
+
+.columns-promo a.button.secondary:hover {
+  background-color: var(--link-hover-color);
+  border-color: var(--link-hover-color);
+  color: #fff;
+}
+
+@media (width >= 900px) {
+  .columns-promo > div {
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  .columns-promo > div > div {
+    flex: 1;
+    order: unset;
+  }
+
+  .columns-promo > div > .columns-promo-img-col {
+    flex: 0 0 280px;
+  }
+}

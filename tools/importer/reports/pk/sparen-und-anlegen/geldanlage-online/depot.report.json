@@ -1,0 +1,22 @@
+{
+  "status": "success",
+  "url": "https://www.deutsche-bank.de/pk/sparen-und-anlegen/geldanlage-online/depot.html",
+  "path": "pk/sparen-und-anlegen/geldanlage-online/depot",
+  "timestamp": "2026-05-20T09:12:33.835Z",
+  "title": "Kostenloses Wertpapierdepot von maxblue | Deutsche Bank",
+  "template": "investment-product-page",
+  "blocks": [
+    "hero-product",
+    "cards-icon",
+    "columns-feature",
+    "columns-feature",
+    "table-pricing",
+    "table-pricing",
+    "columns-promo",
+    "columns-promo",
+    "cards-steps",
+    "tabs-comparison",
+    "accordion-legal",
+    "accordion-faq"
+  ]
+}

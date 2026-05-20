@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-steps",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-05-20T08:50:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.deutsche-bank.de/pk/sparen-und-anlegen/geldanlage-online/depot.html",
+    "originPage": "maxblue online depot product page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "process-steps",
+    "imagePattern": "icon"
+  },
+  "contentPattern": {
+    "structure": "numbered-icon + heading + description",
+    "buttonCount": 0,
+    "imageCount": 3
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "how-it-works sections",
+      "step-by-step process guides",
+      "numbered instruction sequences"
+    ],
+    "notSuitableFor": [
+      "cards with large photos",
+      "unordered feature lists",
+      "cards requiring CTAs per item"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/pk/sparen-und-anlegen/geldanlage-online/depot"],
+    "reuseCount": 1,
+    "lastUsed": "2026-05-20T08:50:00.000Z"
+  }
+}
